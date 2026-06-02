@@ -1,0 +1,19 @@
+{
+    "events": [
+        "Annual Parish Harvest Festival - November 15th, 2026",
+        "KAMA & Mothers' Union Sunday - December 1st, 2026",
+        "Christmas Carol Service - December 24th, 2026",
+        "New Year's Eve Service - December 31st, 2026"
+    ],
+    "announcements": "Welcome to ACK St. John's Sigowet. God loves you!",
+    "serviceTimes": {
+        "sundayEnglish": "08:00 AM – 09:30 AM",
+        "sundayKiswahili": "10:00 AM – 12:00 PM",
+        "wednesday": "04:00 PM – 05:30 PM",
+        "friday": "03:00 PM – 05:00 PM"
+    },
+    "giving": {
+        "mpesa": "[To be provided by church treasury]",
+        "bankAccount": "[To be provided by church treasury]"
+    }
+}

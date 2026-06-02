@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ACK St. John's Sigowet | Anglican Church Eldoret</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img id="logoImage" src="images/CHURCH LOGO 1.jpeg" alt="Church Logo" class="logo-img">
+            <span>ACK ST. JOHN'S CHURCH SIGOWET</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#sermons">Sermons</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu">☰</div>
+    </div>
+</nav>
+
+<!-- Single Background Layer that changes for all sections -->
+<div id="global-bg" class="global-background"></div>
+
+<main>
+    <!-- PAGE 1: HOME -->
+    <section id="home" class="section">
+        <div class="section-content">
+            <h1>A.C.K St John Church Sigowet</h1>
+            <p class="subtitle">Uganda Road, Baharini Centre • Diocese of Eldoret</p>
+            <p class="bishop">The Rt. Rev. Dr. Christopher Ruto, Diocesan Bishop</p>
+            <div class="service-badge">
+                <span>✝ Sunday English: 8:00 AM</span>
+                <span>🕊 Sunday Kiswahili: 10:00 AM</span>
+                <span>📖 Wednesday: 4:00 PM</span>
+                <span>🤝 Friday: 3:00 PM</span>
+            </div>
+            <button class="cta-button" id="exploreBtn">Explore Our Church</button>
+        </div>
+        <canvas id="home-particles"></canvas>
+    </section>
+
+    <!-- PAGE 2: ABOUT + MINISTRIES -->
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p><strong>A.C.K St John Church Sigowet</strong> is a vibrant Anglican parish located in Baharini Centre, Turbo Sub-county, Uasin Gishu County.</p>
+                    <p>We are part of the <strong>ACK Diocese of Eldoret</strong> under the spiritual leadership of <strong>The Rt. Rev. Dr. Christopher Ruto</strong>.</p>
+                    <p>Our parish head is <strong>Kapchumba Parish</strong>, serving the Kiplombe Ward community.</p>
+                    <div class="vision-box">
+                        <h3>Our Vision</h3>
+                        <p>To be a transformative church that spreads the Gospel and serves the community through faith, hope, and love.</p>
+                    </div>
+                </div>
+                <div class="ministries-compact">
+                    <h3>Our Ministries</h3>
+                    <div class="ministry-list">
+                        <div class="ministry-item"><strong>KAMA</strong> - Kenya Anglican Men's Association</div>
+                        <div class="ministry-item"><strong>Mothers' Union</strong> - Women's fellowship & family ministry</div>
+                        <div class="ministry-item"><strong>KAYO</strong> - Kenya Anglican Youth Organization</div>
+                        <div class="ministry-item"><strong>Brigades</strong> - Boys' & Girls' Brigade</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <canvas id="about-particles"></canvas>
+    </section>
+
+    <!-- PAGE 3: SERVICES + EVENTS -->
+    <section id="services" class="section">
+        <div class="section-content">
+            <h2>Services & Events</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Sunday English</h3>
+                    <p class="time">08:00 AM – 09:30 AM</p>
+                    <p>Morning worship and Holy Communion</p>
+                </div>
+                <div class="service-card">
+                    <h3>Sunday Kiswahili</h3>
+                    <p class="time">10:00 AM – 12:00 PM</p>
+                    <p>Main parish communal service</p>
+                </div>
+                <div class="service-card">
+                    <h3>Wednesday Mid-Week</h3>
+                    <p class="time">04:00 PM – 05:30 PM</p>
+                    <p>Prayer and home cell meetings</p>
+                </div>
+                <div class="service-card">
+                    <h3>Friday Fellowship</h3>
+                    <p class="time">03:00 PM – 05:00 PM</p>
+                    <p>Mothers' Union & Youth preparatory meetings</p>
+                </div>
+            </div>
+            <div class="events-compact">
+                <h3>📅 Upcoming Events</h3>
+                <div class="event-list">
+                    <div class="event-item">Loading events...</div>
+                </div>
+            </div>
+        </div>
+        <canvas id="services-particles"></canvas>
+    </section>
+
+    <!-- PAGE 4: SERMONS + GALLERY -->
+    <section id="sermons" class="section">
+        <div class="section-content">
+            <h2>Sermons & Gallery</h2>
+            <div class="sermons-gallery-grid">
+                <div class="sermons-box">
+                    <h3>🎧 Recent Sermons</h3>
+                    <div class="sermon-placeholder">
+                        <p>Sermons coming soon. Stay tuned!</p>
+                        <p class="small-note">Join us Sunday at 8:00 AM for live service</p>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <h3>📸 Photo Gallery</h3>
+                    <button class="facebook-btn" onclick="window.open('https://www.facebook.com/profile.php?id=100089349526622', '_blank')">
+                        Visit Our Facebook Page
+                    </button>
+                    <p class="small-note">More photos and updates on Facebook</p>
+                </div>
+            </div>
+        </div>
+        <canvas id="sermons-particles"></canvas>
+    </section>
+
+    <!-- PAGE 5: GIVING + PRAYER + CONTACT -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Giving, Prayer & Contact</h2>
+            <div class="contact-three-columns">
+                <div class="contact-card">
+                    <h3>💰 Give Your Offering</h3>
+                    <p><strong>M-Pesa Paybill:</strong></p>
+                    <input type="text" id="mpesaPaybill" value="[To be provided]" readonly class="giving-input">
+                    <button class="copy-btn" onclick="copyToClipboard('mpesaPaybill')">Copy Paybill</button>
+                    <p style="margin-top:15px;"><strong>Bank:</strong> KCB or Equity Bank</p>
+                    <input type="text" id="accountNumber" value="[To be provided]" readonly class="giving-input">
+                    <button class="copy-btn" onclick="copyToClipboard('accountNumber')">Copy Account</button>
+                    <p class="tithing-note">"Honor the Lord with your wealth" - Proverbs 3:9</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>🙏 Prayer Request</h3>
+                    <form id="prayerForm">
+                        <input type="text" placeholder="Your Name" id="prayerName" required>
+                        <textarea placeholder="Write your prayer request..." id="prayerMessage" rows="3" required></textarea>
+                        <button type="submit">Submit Prayer Request</button>
+                    </form>
+                    <div id="prayerResponse"></div>
+                    <p class="small-note" style="margin-top:10px;">🔒 Prayer requests are private and only seen by church leadership</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>📞 Contact Us</h3>
+                    <p>📞 <a href="tel:+254710577545">+254 710 577545</a></p>
+                    <p>💬 <a href="https://wa.me/254710577545" target="_blank">WhatsApp: +254 710 577545</a></p>
+                    <p>📧 <a href="mailto:info@eldoretdiocese.org">info@eldoretdiocese.org</a></p>
+                    <p>📍 Uganda Road, Baharini Centre</p>
+                    <p>🏘️ Turbo Sub-county, Uasin Gishu County</p>
+                    <button class="facebook-btn" style="margin-top:15px;" onclick="window.open('https://www.facebook.com/profile.php?id=100089349526622', '_blank')">
+                        Facebook Community
+                    </button>
+                </div>
+            </div>
+        </div>
+        <canvas id="contact-particles"></canvas>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 A.C.K St John Church Sigowet | Diocese of Eldoret | Kapchumba Parish</p>
+    <p>✝ "Jesus Christ is the same yesterday, today, and forever" - Hebrews 13:8</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
